@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
+backend/data/
+backend/tmp/
+

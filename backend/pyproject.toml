@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musicplanner-api"
+version = "0.1.0"
+description = "API do MusicPlanner"
+requires-python = ">=3.12,<3.13"
+dependencies = ["fastapi==0.142.2", "uvicorn==0.54.0", "python-dotenv==1.2.4"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
